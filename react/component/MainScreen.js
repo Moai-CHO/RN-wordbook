@@ -24,7 +24,7 @@ const AppTabNavigator = createMaterialTopTabNavigator(
                     },
                 }),
             },
-            iconStyle: {height: 100},
+            // iconStyle: {height: 100},
             activeTintColor: '#000',
             inactiveTintColor: '#d1cece',
             upperCaseLabel: false,

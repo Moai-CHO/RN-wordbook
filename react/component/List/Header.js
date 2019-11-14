@@ -6,7 +6,14 @@ import styles from '../../styles/listStyle'
 const Header = () => {
     return (
         <View>
-            <Text style={styles.title}>Title</Text>
+            <View style={{flexDirection: 'row'}}>
+                <Text>123단어</Text>
+                <Text>설명</Text>
+            </View>
+            <View>
+                <Text style={styles.title}>Title</Text>
+            </View>
+
         </View>
     );
 };
